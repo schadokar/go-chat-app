@@ -1,0 +1,8 @@
+.message-history {
+    padding-right: 15px;
+    height: 25rem;
+    overflow: overlay;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
