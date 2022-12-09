@@ -7,40 +7,38 @@ A detailed article is published on [Medium](https://levelup.gitconnected.com/cre
 
 ## Setup
 
-### Step 1
-Clone the repository
-
-### Step 2
-Run `git mod tidy` to install all the Golang dependencies.
-
-### Step 3
-Go to `clients` and to install frontend dependencies.
-
-```node
-npm install
-```
+- Clone the repository `git clone https://github.com/schadokar/go-chat-app.git`
+- Run `go mod tidy` to install all the GO dependencies.
+- Open the `client` directory and install the frontend dependecies
+  ```bash
+  cd client
+  npm install
+  ```
 
 ## Run the Application
+Open three terminals in the repository root
+
 ### Terminal 1
 Start HTTP server
-```
+```bash
 go run main.go --server=http
 ```
 
 ### Terminal 2
 Start WebSocket server
 
-```
+```bash
 go run main.go --server=websocket
 ```
 
 ### Terminal 3
-Go to `client` and run
+Start the frontend
 
-```
+```bash
+cd client
 npm start
 ```
 
-Application is live at `localhost:3000`. 
+The application is now available at http://localhost:3000. 
 
 ![](https://github.com/schadokar/go-chat-app/blob/main/Videos%20(1).gif)
