@@ -11,7 +11,7 @@ A detailed article is published on [Medium](https://levelup.gitconnected.com/cre
 Clone the repository
 
 ### Step 2
-Run `git mod tidy` to install all the Golang dependencies.
+Run `go mod tidy` to install all the Golang dependencies.
 
 ### Step 3
 Go to `clients` and to install frontend dependencies.
